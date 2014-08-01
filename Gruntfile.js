@@ -33,6 +33,13 @@ module.exports = function(grunt) {
         }
       }
     },
+//     watch: {
+//     options: {
+//         livereload: true,
+//     },
+//     scripts: {   
+//     /* etc */
+// }
     watch: {
     	options:{livereload:true},
     	jshint:{
