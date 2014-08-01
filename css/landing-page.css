@@ -1,7 +1,5 @@
 /*!
- * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * DyCom Group - Landing Page Theme (http://dcg.jematiga.com)
  */
 
 body,
@@ -54,7 +52,7 @@ h6 {
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
 
 @media(max-width:767px) {
@@ -163,4 +161,25 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+.shadowed {
+    -webkit-filter: drop-shadow(1px 1px 1px #222);
+    filter:         drop-shadow(1px 1px 1px #222); 
+}
+
+.footerlogo {
+    height: 35px;
+}
+
+h2.ftrh2 {
+    font-size: 35px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    font-weight: normal;
+    color: #ddd;
+    margin-top:-5px;
+}
+
+h2.ftrh2 img {
+    margin-top: -3px;
 }
